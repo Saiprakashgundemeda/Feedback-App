@@ -1,0 +1,115 @@
+/* Write your CSS code here. */
+.background-container {
+  height: 100vh;
+  background-image: linear-gradient(#ffeeee, #ffc0bb);
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.mainContainer {
+  height: 100vh;
+  background-image: linear-gradient(#ffeeee, #ffc0bb);
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.emojis-container-background {
+  height: 50vh;
+  padding: 20px;
+  background-color: white;
+  width: 50%;
+  border-radius: 10px;
+  text-align: center;
+}
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.emojis-list-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.emoji-button {
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  margin: 10px;
+}
+.emoji {
+  height: 100px;
+  margin: 10px;
+}
+.eachEmojiName {
+  font-size: 30px;
+  font-weight: bold;
+}
+.loveEmojiContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 50vh;
+  padding: 20px;
+  background-color: white;
+  width: 50%;
+  border-radius: 10px;
+}
+.loveEmoji {
+  height: 70px;
+}
+.thankyouText {
+  font-size: 30px;
+}
+.feedbackPara {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .emojis-container-background {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    height: 80vh;
+  }
+  .emojis-list-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+  }
+  .emoji-button {
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    margin: 10px;
+  }
+  .emoji {
+    height: 50px;
+    margin: 20px;
+  }
+  .eachEmojiName {
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
